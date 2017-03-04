@@ -1,7 +1,7 @@
 const version = require('../package.json').version
 
 import plugins from './plugins'
-import { inBrowser } from './browser'
+import browser from './browser'
 
 let VueVistor = () => {}
 
@@ -21,7 +21,7 @@ VueVistor.install = function (Vue) {
   }
 }
 
-if (inBrowser && window.Vue) {
+if (browser.inBrowser && window.Vue) {
   window.Vue.use(VueVistor)
 }
 
