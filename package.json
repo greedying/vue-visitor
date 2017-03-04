@@ -1,6 +1,6 @@
 {
   "name": "vue-visitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a vue plugin of detecting vistor, for example, browser, device and so on",
   "keywords": [
     "vue",
