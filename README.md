@@ -8,7 +8,7 @@
 
 ### umd包方式
 
-   一般引入min版本，即引入`tctip-版本号.min.js`文件  
+   一般引入min版本，即引入`vue-visitor-版本号.min.js`文件  
 
 ```javascript
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
