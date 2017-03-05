@@ -45,20 +45,40 @@
     // this.$browser.isWechat
 ```
 
+## demo
+
++ 您可以查看demo目录文件
++ 或者查看[在线demo](http://greedying.com/vue-visitor)
+
 
 ## 属性说明
 
 如果没有特别说明，则属性`example`使用方式为 `Vue.example`，组件中则为`this.$examle`
+
+* ua
+
+用户浏览器 user agent 信息，使用方式为组件内`this.$ua`或者 `Vue.us`
 
 * browser
   
 浏览器环境，例如浏览器版本号，是否软件内置浏览器，还在不断实现中
 
 ### 子属性说明
-
-  * `inBrowser`
+  * `isAlipay`
+    * `类型`: Boolean
+    * `含义`: 是否支付宝内置浏览器
+    * `备注`: `this.$browser.isAlipay`或者`Vue.browser.isAlipay`
+  * `isBrowser`
     * `类型`: Boolean
     * `含义`: 是否浏览器环境
+    * `备注`: 无
+  * `isMobile`
+    * `类型`: Boolean
+    * `含义`: 是否移动设备
+    * `备注`: 无
+  * `isQQ`
+    * `类型`: Boolean
+    * `含义`: 是否qq内置浏览器
     * `备注`: 无
   * `isWechat`
     * `类型`: Boolean

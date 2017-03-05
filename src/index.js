@@ -21,7 +21,7 @@ VueVistor.install = function (Vue) {
   }
 }
 
-if (browser.inBrowser && window.Vue) {
+if (browser.isBrowser && window.Vue) {
   window.Vue.use(VueVistor)
 }
 
