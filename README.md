@@ -35,7 +35,7 @@
   import vueVisitor from 'vue-visitor'
   Vue.use(vueVisitor)
 ```
-#### 第三步，使用，列斯umd格式
+#### 第三步，使用。 类似umd格式
 
 ```javascript
     // 使用，例如
