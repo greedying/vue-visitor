@@ -1,6 +1,6 @@
 {
   "name": "vue-visitor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a vue plugin of detecting vistor, for example, browser, device and so on",
   "keywords": [
     "vue",
@@ -9,7 +9,7 @@
     "browser",
     "device"
   ],
-  "main": "src/index.js",
+  "main": "dist/vueVisitor-0.0.4.min.js",
   "scripts": {
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
