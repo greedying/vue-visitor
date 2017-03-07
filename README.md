@@ -57,7 +57,7 @@
 
 * ua
 
-用户浏览器 user agent 信息，使用方式为组件内`this.$ua`或者 `Vue.us`
+用户浏览器 user agent 信息，使用方式为组件内`this.$ua`或者 `Vue.ua`
 
 * browser
   
